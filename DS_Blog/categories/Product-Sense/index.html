@@ -4,14 +4,14 @@
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
 
 <script>
-    (function(){
-        if(''){
-            if (prompt('Show me your password') !== ''){
-                alert('Blah, wrong.');
-                history.back();
-            }
-        }
-    })();
+ (function(){
+  if(''){
+if (prompt('Show me your password') !== ''){
+ alert('Blah, wrong.');
+ history.back();
+}
+  }
+ })();
 </script><meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">  
@@ -21,29 +21,29 @@
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="/css/main.css?v=7.1.2">  <link rel="apple-touch-icon" sizes="180x180" href="/DS_Blog/images/apple-touch-icon-next.png?v=7.1.2">  <link rel="icon" type="image/png" sizes="32x32" href="/DS_Blog/images/favicon-32x32-next.png?v=7.1.2">  <link rel="icon" type="image/png" sizes="16x16" href="/DS_Blog/images/favicon-16x16-next.png?v=7.1.2">  <link rel="mask-icon" href="/DS_Blog/images/logo.svg?v=7.1.2" color="#222">
+<link rel="stylesheet" href="/DS_Blog/css/main.css?v=7.1.2">  <link rel="apple-touch-icon" sizes="180x180" href="/DS_Blog/images/apple-touch-icon-next.png?v=7.1.2">  <link rel="icon" type="image/png" sizes="32x32" href="/DS_Blog/images/favicon-32x32-next.png?v=7.1.2">  <link rel="icon" type="image/png" sizes="16x16" href="/DS_Blog/images/favicon-16x16-next.png?v=7.1.2">  <link rel="mask-icon" href="/DS_Blog/images/logo.svg?v=7.1.2" color="#222">
 
 <script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
-    scheme: 'Mist',
-    version: '7.1.2',
-    sidebar: {"position":"right","display":"hide","offset":12,"onmobile":false,"dimmer":false},
-    back2top: true,
-    back2top_sidebar: false,
-    fancybox: true,
-    fastclick: true,
-    lazyload: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
+ root: '/',
+ scheme: 'Mist',
+ version: '7.1.2',
+ sidebar: {"position":"right","display":"hide","offset":12,"onmobile":false,"dimmer":false},
+ back2top: true,
+ back2top_sidebar: false,
+ fancybox: true,
+ fastclick: true,
+ lazyload: true,
+ tabs: true,
+ motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+ algolia: {
+applicationID: '',
+apiKey: '',
+indexName: '',
+hits: {"per_page":10},
+labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+ }
   };
 </script>  
 
@@ -58,7 +58,7 @@
   <link rel="canonical" href="https://kdsmel.github.io/DS_Blog/categories/Product-Sense/">
 <script id="page.configurations">
   CONFIG.page = {
-    sidebar: "",
+ sidebar: "",
   };
 </script>
 
@@ -78,8 +78,8 @@
   .use-motion .logo,
   .use-motion .site-title,
   .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
+ opacity: initial;
+ top: initial;
   }
 
   .use-motion .logo-line-before i { left: initial; }
@@ -91,422 +91,323 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
   
-    
+ 
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-right ">
-    <div class="headband"></div>
+ <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
+ <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+<div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta">
-    
+ 
 
-    <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Kamel's Notes</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-    
-      
-        <p class="site-subtitle">Code changes world!</p>
-      
-    
-    
+ <div class="custom-logo-site-title">
+<a href="/" class="brand" rel="start">
+  <span class="logo-line-before"><i></i></span>
+  <span class="site-title">Kamel's Notes</span>
+  <span class="logo-line-after"><i></i></span>
+</a>
+ </div>
+ 
+
+  <p class="site-subtitle">Code changes world!</p>
+
+ 
+ 
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Toggle navigation bar">
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+ <button aria-label="Toggle navigation bar">
+<span class="btn-bar"></span>
+<span class="btn-bar"></span>
+<span class="btn-bar"></span>
+ </button>
   </div>
 </div>
-<nav class="site-nav">    <ul id="menu" class="menu">
-      
-        
-          
-          <li class="menu-item menu-item-home">
+<nav class="site-nav"> <ul id="menu" class="menu">
 
-    
-    
-    
-      
-    
+  
+ 
+ <li class="menu-item menu-item-home">
 
-    
+ 
+ 
+ 
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+ 
 
-  </li>
-        
-          
-          <li class="menu-item menu-item-ml">
+ 
 
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/DS_Blog/categories/Machine-Learning" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>ML</a>
+ <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
-        
-          
-          <li class="menu-item menu-item-big-data">
+  
+ 
+ <li class="menu-item menu-item-ml">
 
-    
-    
-    
-      
-    
+ 
+ 
+ 
 
-    
+ 
 
-    <a href="/DS_Blog/categories/Big-Data" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Big Data</a>
+ 
 
-  </li>
-        
-          
-          <li class="menu-item menu-item-journal">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/DS_Blog/categories/Journal/" rel="section"><i class="menu-item-icon fa fa-fw fa-coffee"></i> <br>Journal</a>
+ <a href="/DS_Blog/categories/Machine-Learning" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>ML</a>
 
   </li>
+  
+ 
+ <li class="menu-item menu-item-big-data">
 
-      
-      
-    </ul>    
+ 
+ 
+ 
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
+ 
 
-    
+ 
+
+ <a href="/DS_Blog/categories/Big-Data" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Big Data</a>
+
+  </li>
+  
+ 
+ <li class="menu-item menu-item-journal">
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ <a href="/DS_Blog/categories/Journal/" rel="section"><i class="menu-item-icon fa fa-fw fa-coffee"></i> <br>Journal</a>
+
+  </li>
+ </ul> 
+
+ 
+  
+ 
+
+ 
 </nav></div>
-    </header>
+ </header>
 
-        <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-          <div id="content" class="content">
-            
-    <div class="post-block category">
+  <main id="main" class="main">
+<div class="main-inner">
+  <div class="content-wrap">
+ 
+ <div id="content" class="content">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Product Sense<small>Category</small>
-        </h1>
-      </div>
+ <div class="post-block category">
 
-      
-        
+ <div id="posts" class="posts-collapse">
+<div class="collection-title">
+  <h1>Product Sense<small>Category</small>
+  </h1>
+</div>  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+ <header class="post-header">
 
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/DS_Blog/posts/db6945d3/" itemprop="url">
-            
-              <span itemprop="name">A/B Testing : Pitfalls, Baysian & Math Behind</span>
-            
-          </a>
-        
-      </h2>
+<h2 class="post-title">
+  
+ <a class="post-title-link" href="/DS_Blog/posts/db6945d3/" itemprop="url">
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-07-16T15:22:59-05:00" content="2020-07-16">
-          07-16
-        </time>
-      </div>
+  <span itemprop="name">A/B Testing : Pitfalls, Baysian & Math Behind</span>
 
-    </header>
-  </article>      
-        
+ </a>
+  
+</h2>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+<div class="post-meta">
+  <time class="post-time" itemprop="dateCreated" datetime="2020-07-16T15:22:59-05:00" content="2020-07-16">
+ 07-16
+  </time>
+</div>
 
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/DS_Blog/posts/8fdfc10f/" itemprop="url">
-            
-              <span itemprop="name">A/B Testing Final Project</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-07-03T14:28:54-05:00" content="2020-07-03">
-          07-03
-        </time>
-      </div>
-
-    </header>
-  </article>      
-        
+ </header>
+  </article>
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+ <header class="post-header">
 
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/DS_Blog/posts/17c5bb19/" itemprop="url">
-            
-              <span itemprop="name">Study Notes of Udacity A/B Testing</span>
-            
-          </a>
-        
-      </h2>
+<h2 class="post-title">
+  
+ <a class="post-title-link" href="/DS_Blog/posts/8fdfc10f/" itemprop="url">
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-07-03T14:24:21-05:00" content="2020-07-03">
-          07-03
-        </time>
-      </div>
+  <span itemprop="name">A/B Testing Final Project</span>
 
-    </header>
-  </article>      
-    </div>
+ </a>
+  
+</h2>
 
-  </div>            </div>
-          
+<div class="post-meta">
+  <time class="post-time" itemprop="dateCreated" datetime="2020-07-03T14:28:54-05:00" content="2020-07-03">
+ 07-03
+  </time>
+</div>
 
-        </div>
-        
-            <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
+ </header>
+  </article>
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+ <header class="post-header">
+
+<h2 class="post-title">
+  
+ <a class="post-title-link" href="/DS_Blog/posts/17c5bb19/" itemprop="url">
+
+  <span itemprop="name">Study Notes of Udacity A/B Testing</span>
+
+ </a>
+  
+</h2>
+
+<div class="post-meta">
+  <time class="post-time" itemprop="dateCreated" datetime="2020-07-03T14:24:21-05:00" content="2020-07-03">
+ 07-03
+  </time>
+</div>
+
+ </header>
+  </article>
+ </div>
+
+  </div></div>
+ 
+
+  </div>
+  
+<div class="sidebar-toggle">
+ <div class="sidebar-toggle-line-wrap">
+<span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+<span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+<span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+ </div>
   </div>
 
   <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
+ <div class="sidebar-inner"><div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+  <div class="site-overview">
+ <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
 
-      
+  <p class="site-author-name" itemprop="name">Kamel Chehboun</p>
+  <div class="site-description motion-element" itemprop="description"></div>
+ </div>
 
-      
+ 
+<nav class="site-state motion-element">
+  
+ <div class="site-state-item site-state-posts">
+ 
+<a href="/archives">
+ 
+  <span class="site-state-item-count">44</span>
+  <span class="site-state-item-name">posts</span>
+</a>
+ </div>
+  
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">Kamel Chehboun</p>
-              <div class="site-description motion-element" itemprop="description"></div>
-          </div>
+  
+ 
+ 
+ <div class="site-state-item site-state-categories">  
+ <a href="/DS_Blog/categories/">
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+  <span class="site-state-item-count">8</span>
+  <span class="site-state-item-name">categories</span>
+</a>
+ </div>
+  
 
-          
-            <nav class="site-state motion-element">
-              
-                <div class="site-state-item site-state-posts">
-                
-                  <a href="/archives">
-                
-                    <span class="site-state-item-count">44</span>
-                    <span class="site-state-item-name">posts</span>
-                  </a>
-                </div>
-              
+  
+ 
+ 
+ <div class="site-state-item site-state-tags">  
+ <a href="/tags/">
+ 
+  <span class="site-state-item-count">34</span>
+  <span class="site-state-item-name">tags</span>
+</a>
+ </div>
+  
+</nav>
+<div class="feed-link motion-element">
+  <a href="/DS_Blog/atom.xml" rel="alternate">
+ <i class="fa fa-rss"></i>
+ RSS
+  </a>
+</div>
 
-              
-                
-                
-                <div class="site-state-item site-state-categories">  
-                      <a href="/DS_Blog/categories/">
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">8</span>
-                    <span class="site-state-item-name">categories</span>
-                  </a>
-                </div>
-              
+ 
+<div class="links-of-author motion-element">
+  
+ <span class="links-of-author-item">  <a href="https://github.com/kdsmel" title="GitHub &rarr; https://github.com/kdsmel" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+ </span>
+  
+</div>
 
-              
-                
-                
-                <div class="site-state-item site-state-tags">  
-                      <a href="/tags/">
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">34</span>
-                    <span class="site-state-item-name">tags</span>
-                  </a>
-                </div>
-              
-            </nav>
-            <div class="feed-link motion-element">
-              <a href="/DS_Blog/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
-            </div>
+ 
 
-          
-            <div class="links-of-author motion-element">
-              
-                <span class="links-of-author-item">  <a href="https://github.com/kdsmel" title="GitHub &rarr; https://github.com/kdsmel" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
-                </span>
-              
-            </div>
+ 
+ 
 
-          
-            
-          
-          
+  </div>
+</div> </div>
+  </aside></div>
+ </main>
 
-        </div>
-      </div>
-
-      
-
-      
-
-    </div>
-  </aside>      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
+ <footer id="footer" class="footer">
+<div class="footer-inner">
+  <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+ <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Kamel Chehboun</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-    <span title="Symbols count total">518k</span></div>
+ <span class="post-meta-divider">|</span>
+ <span class="post-meta-item-icon">
+<i class="fa fa-area-chart"></i>
+ </span>
+ 
+ <span title="Symbols count total">518k</span></div>
 
-      </div>
-    </footer>
+</div>
+ </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
+ 
+<div class="back-to-top">
+  <i class="fa fa-arrow-up"></i>
+  
+</div>
+ 
 
-    
+ 
 
-    
+ 
 
-    
+ 
   </div>
 
 </div>
