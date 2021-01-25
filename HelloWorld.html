@@ -1,41 +1,16 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Declare langauage for webpage-->
-
-<!--################################################################################################## -->
-
-<head>
-<title>Hello World</title>
-        <meta charset="utf-8">
-        
-          <!-- Load the stylesheet --->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/variable.css">
-
-</head>
-<style>
-  #map {
-    height: 100%;
-  }
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-</style>
-	
-
-
-<body>
-<script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEldGNaD_-xmpEqb1HdylDYxYjmYmE7Eo&callback=initMap">
-</script>
-	  
-
-<div id="map"></div>
-map = new google.maps.Map(document.getElementById('map'), {
-  center: {lat: -34.397, lng: 150.644},
-  zoom: 8
-});
-	
-</body>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEldGNaD_-xmpEqb1HdylDYxYjmYmE7Eo&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
 </html>
