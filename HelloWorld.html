@@ -12,14 +12,29 @@
 <link rel="stylesheet" type="text/css" href="css/variable.css">
 
 </head>
+<style>
+  #map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+	
+<script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEldGNaD_-xmpEqb1HdylDYxYjmYmE7Eo&callback=initMap">
+</script>
 
 <body>
 	  
 
-<div>
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rUVv0YZUp3x1wUWCdWwU8OfkBDl-Iw6G" width="960" height="720"></iframe>  
-  
-</div>
-
+<div id="map"></div>
+map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: -34.397, lng: 150.644},
+  zoom: 8
+});
+	
 </body>
 </html>
