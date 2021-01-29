@@ -28,7 +28,7 @@ figure {
   text-align: center;
 }
 iframe {
-  position: absolute;
+  position: relative;
   top: 0;
   margin: 30px auto;
   overflow: auto;
