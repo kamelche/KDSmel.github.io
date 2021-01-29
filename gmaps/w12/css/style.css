@@ -13,22 +13,12 @@ body{
 /*#####################################################################################################*/
 
 
-.frame {
-height:600px;
-}
-
- 
  .question {
   text-align: left;
   margin: 0px;
-  font-size: 14pt;
+  font-size: 12pt;
  }
 
-.sub-question {
-  text-align: left;
-  margin: 0px;
-  font-size: 14pt;
- }
  
 
 
