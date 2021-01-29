@@ -19,6 +19,24 @@ body{
   font-size: 12pt;
  }
 
+figure {
+  position: relative;
+  width: 90vw;
+  height: 70vh;
+  margin: 30px auto;
+  border: 1px solid red;
+  text-align: center;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  overflow: auto;
+  display: block;
+  height: 400px;
+  width: 900px;
+}
+
+
  
 
 
