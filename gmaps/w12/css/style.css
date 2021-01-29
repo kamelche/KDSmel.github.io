@@ -47,8 +47,8 @@ iframeold {
 
 .container {
   position: relative;
-  margin: 30px auto;
-  overflow: hidden;
+  overflow: auto;
+  display: block;
   height: 675px;
   width: 1200px;
   text-align: center
