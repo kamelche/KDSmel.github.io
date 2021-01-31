@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+/*#####################################################################################################*/
+
+body{
+  background-color: blue;
+  font-family: Calibri, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*#####################################################################################################*/
+/*----- Navigation Bar  -----*/
+/*#####################################################################################################*/
+
+
+
+/*#####################################################################################################*/
+/*----- CONTENT SECTION  -----*/
+/*#####################################################################################################*/
+
+
+h2 { 
+    color: #000080;
+}
+
+h4 { 
+    color: #C71585;
+}
+
+.question {
+  text-align: left;
+  margin: 0px;
+  font-size: 12pt;
+ }
+
+hr.line{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid  #010c35;
+  max-width: 40%;  
+}
+
+iframeold {
+  position: relative;
+  top: 0;
+  margin: 30px auto;
+  overflow: auto;
+  display: block;
+  height: 400px;
+  width: 900px;
+  text-align: center
+}
+
+.container {
+  position: relative;
+  overflow: auto;
+  display: block;
+  align-items: center;
+      margin-left: auto;
+    margin-right: auto;
+  width: 80%;
+  padding-top: 45%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
