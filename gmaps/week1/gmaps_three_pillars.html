@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Declare langauage for webpage-->
+
+<!--################################################################################################## -->
+
+<head>
+        <title>HOME</title>
+        <meta charset="utf-8">
+        
+          <!-- Load the stylesheet --->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Responsive Design --->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Navbar Design --->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<!--################################################################################################# -->
+
+<body>
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">GEOM 99: Practical Labs.</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Week 2<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="gmaps_tutorial.html">Google MyMaps Tutorial</a></li>
+          <li><a href="js_api.html">JavaScript API</a></li>
+          <li><a href="directions_api">Directions API</a></li>
+          <li><a href="places_api">Places API</a></li>
+        </ul>
+      </li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Week 3<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="adding_gmap.html">Tutorial 1: Adding-a-google-map</a></li>
+          <li><a href="clustering.html">Tutorial 2: Marker-clustering </a></li>
+          <li><a href="earthquakes.html">Tutorial 3: Earthquakes</a></li>
+          <li><a href="mystory_map.html">Create a Map using the Google Maps</a></li>
+
+        </ul>
+      </li>
+  
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Navbar With Dropdown</h3>
+  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
+</div>
+	
+	<!--################################################################################################# -->
+	
+<h2 class="title"> The three pillars of Google Maps as a platform: Maps, Routes and Places. </h2>
+
+	
+		<div class="question">
+		<h4> 1. JavaScript API (HTML Interactive Map).</h4>
+			<div class="container">
+				<iframe class="responsive-iframe" src="https://kdsmel.github.io/gmaps/w12/helloworld.html" title="HTML Interactive Map" ></iframe>
+			</div>
+		<hr class="line">  
+		</div> 
+
+	
+		<div class="question">
+		<h4>2. Directions API (JSON Return).</h4>
+			<a href="https://maps.googleapis.com/maps/api/directions/json?origin=canadian+museum+nature&destination=Centre+visiteurs+parc+Gatineau&key=AIzaSyDoQotoGwnQI4qbHYH7WarUOz1pKaBd1Fc" target="_blank">The driving directions from the Canadian Museum of Nature to Gatineau Park!</a>
+		<hr class="line">  
+		</div> 
+	
+	
+		<div class="question">
+		<h4>3. Places API (JSON Return).</h4>
+		<div><a href="https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJ7T7MY1MEzkwReMFJh479D7Q&fields=address_components,adr_address,formatted_address,formatted_phone_number,geometry,icon,id,international_phone_number,name,place_id,rating,reference,reviews,types,url,utc_offset,vicinity,website&key=AIzaSyDoQotoGwnQI4qbHYH7WarUOz1pKaBd1Fc" target="_blank">Getting the details of the Canadian Museum of Nature using its place_id.</a></div>
+		</div>
+		<div class="question">
+			<p>The place ID could be obtained for any desired location using the interactive map below</p>
+			<div class="container">
+				<iframe class="responsive-iframe" src="https://kdsmel.github.io/gmaps/w12/placeid_finder.html" title="Place ID" ></iframe>
+			</div>
+		</div>		
+
+</body>
+</html>
