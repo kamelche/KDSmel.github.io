@@ -2,6 +2,24 @@
 <html>
   <head>
     <title>Add Map</title>
+    
+    
+    <!--################################################################################################## -->
+
+
+        <meta charset="utf-8">
+        
+          <!-- Load the stylesheet --->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Responsive Design --->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Navbar Design --->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!--################################################################################################# -->
+
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5a1FoKmbmQ1djPh6pRx7oiknBf3ACNOE&callback=initMap&libraries=&v=weekly"
       defer
@@ -34,6 +52,41 @@
     </script>
   </head>
   <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">GEOM 99: Practical Labs.</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Week 2<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="gmaps/week1/gmaps_tutorial.html">Google MyMaps Tutorial</a></li>
+          <li><a href="gmaps/week1/gmaps_three_pillars.html">JavaScript API</a></li>
+          <li><a href="gmaps/week1/directions_api">Directions API</a></li>
+          <li><a href="gmaps/week1/places_api">Places API</a></li>
+        </ul>
+      </li>
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Week 3<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="gmaps/week2/adding_gmap.html">Tutorial 1: Adding-a-google-map</a></li>
+          <li><a href="gmaps/week2/clustering.html">Tutorial 2: Marker-clustering </a></li>
+          <li><a href="gmaps/week2/earthquakes.html">Tutorial 3: Earthquakes</a></li>
+          <li><a href="gmaps/week2/mystory_map.html">Create a Map using the Google Maps</a></li>
+
+        </ul>
+      </li>
+  
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Navbar With Dropdown</h3>
+  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
+</div>
+	
+	<!--################################################################################################# -->
     <h3>My Google Maps Demo</h3>
     <!--The div element for the map -->
     <div id="map"></div>
