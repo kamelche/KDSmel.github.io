@@ -18,13 +18,21 @@ body{
 
 
 h2 { 
-    color: #000080;
+   color: #000080;
+  text-align:center;
+  padding-top: 10px
+  
 }
+
 
 h4 { 
     color: #C71585;
 }
 
+h3 { text-align:left; 
+  color:#1a1300;
+  padding-top: 40px;
+}
 .question {
   text-align: left;
   margin: 0px;
