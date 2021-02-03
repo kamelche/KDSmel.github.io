@@ -92,11 +92,18 @@ const path9 = [
   
   // My Starting point of the quick walking tour
    const paris = { lat: 48.86393476909431, lng: 2.3135697264418837};
-     // The marker, positioned at Paris
-   const marker = new google.maps.Marker({
+     // The marker, positioned at Pont Alexandrie
+   const marker1 = new google.maps.Marker({
           position: paris,
           map: map,
         });
+  // My Ending point of the quick walking tour
+   const lelouvre = { lat: 48.86066692176691, lng: 2.3376557976008163};
+     // The marker, positioned at LeLouvre
+   const marker2 = new google.maps.Marker({
+          position: lelouvre,
+          map: map,
+        });	
 
       
   map.data.add({
