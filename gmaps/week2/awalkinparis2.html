@@ -47,13 +47,19 @@ function initMap() {
 	   
   });
   // My last walking path in Paris.
-  const outerCoords = [
+  const path1 = [
     { lat: 48.90393476909431, lng: 2.3535697264418837 },
     { lat: 48.97393476909431, lng: 2.3335697264418837 },
+  ];
+  const path2 = [
+    { lat: 48.97393476909431, lng: 2.3335697264418837 },
+    { lat: 48.84393476909431, lng: 2.3135697264418837 },
+   
+  ];
+  const path3 = [
     { lat: 48.84393476909431, lng: 2.3135697264418837 },
     { lat: 48.82393476909431, lng: 2.2835697264418837 },
   ];
-
   
   
   
@@ -68,7 +74,9 @@ function initMap() {
       
   map.data.add({
     geometry: new google.maps.Data.Polygon([
-      outerCoords,
+    path1,
+    path2,
+    path3,
     ]),
   });
 }
